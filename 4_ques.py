@@ -1,9 +1,3 @@
-def check_last_digit(num):
-    return num % 10 == 5
-
-# Test the function
-num = int(input("Enter a number: "))
-if check_last_digit(num):
-    print("The last digit is 5")
-else:
-    print("The last digit is not 5")
+N = int(input("Enter a positive integer: "))
+for i in range(1, N + 1, 2): 
+    print(i, end=" ")

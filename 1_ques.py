@@ -1,5 +1,3 @@
-a=int(input("enter age of the person:"))
-if(a>=18):
-    print("the person is eligible to vote")
-else:
-    print("not eligible to vote")
+N = int(input("Enter a positive integer: "))
+for i in range(1, N + 1):
+    print(i, end=" ")

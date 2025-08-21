@@ -1,7 +1,5 @@
-a=int(input("enter the no."))
-b=int(input("enter the no."))
-c=int(input("enter the no."))
-d=int(input("enter the no."))
-e=int(input("enter the no."))
-avg=(a+b+c+d+e)
-print("enter the 5 number is:",avg)
+N = int(input("Enter a positive integer: "))
+total = 0
+for i in range(1, N + 1):
+    total += i
+print("Sum of natural numbers from 1 to", N, "is:", total)
